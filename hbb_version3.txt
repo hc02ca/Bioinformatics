@@ -1,0 +1,3 @@
+>gi|109893890|gb|DQ659148.1| Homo sapiens hemoglobin (HBB) gene, promoter region, exons 1, 2 and partial cds
+atgagataagag
+
