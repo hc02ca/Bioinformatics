@@ -1,0 +1,3 @@
+>gi|238293|gb|S64640.1| cystic fibrosis transmembrane conductance regulator {DeltaF508, deletion} [human, Genomic Mutant, 30 nt]
+ACCATTAAAGAAAATATCATTGGTGTTTCC
+
