@@ -8,7 +8,8 @@
 # The program will output the DNA sequence, RNA sequence to an outfile.
 # The program will output the amino acid equivalent to another output file.
 # A hastable will store the genetic code. 
-
+#
+# June 2016 by H. Chung
 
 
 # Build hashtable for genetic code
