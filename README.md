@@ -3,7 +3,7 @@ This folder contains a list of bioinformatics related projects.
 
 Project 1:
 
-Cystic Fibrosis is a genetically linked disease. Mutations in the CFTR (cystic fibrosis transmembrane regulator) gene lead to respiratory problems. The most common mutation - a deletion of CTT - affects the closing and opening of this transmembrane protein that allows water to pass into the lungs to thin mucous.
+Cystic Fibrosis is a genetically linked disease. Mutations in the CFTR (cystic fibrosis transmembrane regulator) gene lead to respiratory problems. The most common mutation - a deletion of CTT - affects the closing and opening of this transmembrane protein that allows water to pass into the lungs to thin mucus.
 
 This program prompts the user to enter a deletion of 3 consecutive nucleotides. The normal sequence is then compared to the mutant sequence found in FASTA files. The output lists the top matches. The sequence with the most matches is compared to find the deletion of CTT. There will be two possible solutions. 
 
