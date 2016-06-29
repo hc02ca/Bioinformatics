@@ -7,7 +7,7 @@ Cystic Fibrosis is a genetically linked disease. Mutations in the CFTR (cystic f
 
 This program prompts the user to enter a deletion of 3 consecutive nucleotides. The normal sequence is then compared to the mutant sequence found in FASTA files. The output lists the top matches. The sequence with the most matches is compared to find the deletion of CTT. There will be two possible solutions. 
 
-The program can be modified to compare the protein equivalents, using input from FASTA format files. A deletion of 1 is required since three amino acids code for 1 nucleotide.  An “F” or phenylalanine is missing. This confirms the missing nucleotides are CTT.
+The program can be modified to compare the protein equivalents, using input from FASTA format files. A deletion of 1 is required since 1 amino acide is coded by 3 nucleotides.  An “F” or phenylalanine is missing. This confirms the missing nucleotides are CTT.
 
 cftrgene.pl,
 cftrgene_dna_cds.txt, cftrgene_dna_mutant.txt,
