@@ -8,9 +8,8 @@
 # The program will output the DNA sequence, RNA sequence to an outfile.
 # The program will output the amino acid equivalent to another output file.
 # A hastable will store the genetic code. 
-#
-# June 2016 by H. Chung
 
+# June 2016 by H. Chung
 
 # Build hashtable for genetic code
 my %codes;
@@ -84,7 +83,7 @@ $codes{'UGA'} = 'stopcodon';	#stop codon
 
 
 		
-print "Do you want to enter the template strand from 5' to 3' end (enter T) or non-template strand from 5' to 3'end (enter N)? :  \n";
+print "Do you want to enter the template strand from 5' to 3' end (enter T) or non-template strand from 5' to 3'end (enter N)?: ";
 $strand_choice = <STDIN>;
 chomp $strand_choice;
 
@@ -113,8 +112,8 @@ if ( substr($dnaseq, 0, 3) eq "ATG") {
 }else{
 	
 	$first = substr($dnaseq, 0, 3);
-	print "The first codon is $first";
-	print "The sequence does not appear to be the coding sequence for a protein.. Continue? (Y/N)  \n";
+	print "The first codon is $first. ";
+	print "The sequence does not appear to be the coding sequence for a protein. Continue? (Y/N): ";
 	$start_seq = <STDIN>;
 	chomp $start_seq;
 	if ($start_seq eq "Y")
@@ -198,7 +197,7 @@ sub get_amino_acid {
 
 sub get_fasta_header{
 
-	print "Enter the description";
+	print "Enter the description: ";
 	$fasta_descript = <STDIN>;
 	chomp $fasta_descript;
 	print  outfile2 "$fasta_descript \n";
